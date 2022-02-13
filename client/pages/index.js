@@ -202,7 +202,7 @@ export default function Home() {
     if(!presaleStarted){
       return(
         <div>
-          <div className={styles.description}>Presale hasn't started yet!</div>
+          <div className={styles.description}>Presale hasn&apos;t started yet!</div>
         </div>
       )
     }
