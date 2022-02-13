@@ -1,6 +1,6 @@
 const WHITELIST_CONTRACT_ADDRESS = '0x5C91E1DCfEd7790c8276D6F286567ddC78e7e8a3'
-const NFT_CONTRACT_ADDRESS = '0xa36c4587F9d64c8c6FA8dD2DEA7d121E1C418D32'
-const METADATA_URL = ''
+const NFT_CONTRACT_ADDRESS = '0x0F515102D157A2B73a4Efb1f8e30d4B0Ded06e91'
+const METADATA_URL = 'https://effective-octo-spoon.vercel.app/api/'
 const abi = [
   {
     "inputs": [
