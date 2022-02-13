@@ -2,7 +2,7 @@ import { Contract, ethers, utils, providers } from 'ethers'
 import Head from 'next/head'
 import Image from 'next/image'
 import { useEffect, useRef, useState } from 'react'
-import { abi, NFT_CONTRACT_ADDRESS, WHITELIST_CONTRACT_ADDRESS} from '../../constants'
+import { abi, NFT_CONTRACT_ADDRESS, WHITELIST_CONTRACT_ADDRESS} from '../constants'
 import Web3Modal from 'web3modal'
 import styles from '../styles/Home.module.css'
 

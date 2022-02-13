@@ -1,6 +1,6 @@
 const {ethers} = require('hardhat')
 require('dotenv').config({path: '.env'})
-const {WHITELIST_CONTRACT_ADDRESS, METADATA_URL} = require('../constants')
+const {WHITELIST_CONTRACT_ADDRESS, METADATA_URL} = require('../client/constants')
 
 async function main(){
     const contractFactory = await ethers.getContractFactory('CryptoDevs')
